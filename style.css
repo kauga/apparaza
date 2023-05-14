@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  margin-left: 20px;
+  color: rgb(211, 168, 168);
+  text-decoration: none;
+  font-size: 28px;
+  margin-bottom: 9px;
+  text-transform: capitalize;
+}
+
+header {
+  background-color: blue;
+  height: 260px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 45px;
+}
+
+.version {
+  text-align: center;
+  font-size: 25px;
+}
+
+header::before {
+  content: "w";
+  margin-left: 50px;
+  background-color: aliceblue;
+  border: double 10px;
+  font-size: 40px;
+  margin-top: 15px;
+  color: black;
+  border-spacing: 10px;
+  transform: rotate(-45deg);
+}
+
+aside {
+  display: flex;
+  margin-left: 50px;
+  width: 650px;
+  height: 390px;
+  background-color: rgba(105, 95, 95, 0.171);
+  margin-top: 45px;
+  flex-direction: column;
+  float: left;
+}
+
+article h3 {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.with {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+button {
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+  background-color: blue;
+  margin-left: 15px;
+}
+
+.algola {
+  border-top: 0;
+}
+
+article {
+  display: flex;
+  color: aliceblue;
+  float: right;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(105, 95, 95, 0.171);
+  margin-top: 45px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.add {
+  margin-left: 10px;
+  height: 199px;
+  margin-left: 50px;
+}
+
+.empower {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  float: left;
+}
+
+.your {
+  font-size: 22px;
+}
+
+.use {
+  font-size: 21px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  min-height: 199px;
+  width: 500px;
+  margin-left: 835px;
+}
+
+aside p {
+  border-top: solid rgb(80, 78, 78) 1px;
+  padding-top: 11px;
+  font-size: 25px;
+}
+
+.Arya {
+  padding-bottom: 11px;
+  border-bottom: solid rgb(80, 78, 78) 1px;
+  font-size: 20px;
+}
+
+h4 {
+  margin-bottom: 5px;
+  font-size: 23px;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+h4::before {
+  content: "+";
+  color: black;
+  background-color: aliceblue;
+  font-size: 15px;
+  padding: 6px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.change {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.kauga {
+  height: 16px;
+  stroke: aliceblue;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.settings {
+  width: 20px;
+  height: 20px;
+  stroke: #e9e9e9;
+}
+
+.user {
+  width: 20px;
+  height: 20px;
+  stroke: #e9e9e9;
+}
+
+.wap {
+  margin-right: 120px;
+  font-size: 45px;
+  color: white;
+}
