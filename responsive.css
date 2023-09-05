@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+  .test {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4rem;
+  }
+
+  article {
+    /* display: flex;
+    color: aliceblue;
+    float: right;
+    /* width: 500px;
+    height: 200px; */
+    /* background-color: rgba(105, 95, 95, 0.171); */
+    /* margin-top: 45px; */
+    /* flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px; */
+
+    margin-right: 22.5rem;
+    border-top-right-radius: 12px; 
+    border-top-left-radius: 12px;
+  }
+
+  aside {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+
+  .empower {
+    margin-right: 3rem;
+  }
+}
