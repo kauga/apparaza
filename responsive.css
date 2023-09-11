@@ -1,7 +1,12 @@
 @media screen and (max-width: 1200px) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
   .test {
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 4rem;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
   }
 
   article {
@@ -28,5 +33,13 @@
 
   .empower {
     margin-right: 3rem;
+  }
+
+  article {
+    margin-right: 350px;
+  }
+
+  .heading-one {
+    font-size: 30px;
   }
 }

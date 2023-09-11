@@ -67,6 +67,7 @@ button {
   padding: 5px;
   background-color: blue;
   margin-left: 15px;
+  border-radius: 9px;
 }
 
 .algola {
@@ -113,9 +114,9 @@ footer {
   margin-top: 30px;
   min-height: 199px;
   width: 500px;
-  /* margin-left: 835px; */
+  margin-left: 835px;
   margin-left: 5rem;
-}
+} 
 
 aside p {
   border-top: solid rgb(80, 78, 78) 1px;
@@ -189,16 +190,21 @@ h4::before {
 .test {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 3rem;
+  column-gap: 1rem;
   margin-left: 0.3rem;
   margin-right: 9rem;
   margin-top: 5rem;
 }
 
 .kauga1 {
-  /* background-color: blue; */
+  /* border-top-right-radius: 12px;
+  border-top-left-radius: 50px; */
 }
 
 .kauga2 {
   /* background-color: chartreuse; */
 }
+
+/* ************************ */
+/* NEW CSS */
+/* ************************ */
