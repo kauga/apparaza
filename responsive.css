@@ -43,3 +43,13 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .kauga1 {
+width: 30px;
+  }
+  .p-font-size {
+    font-size: 1.3rem;
+  }
+  
+}
