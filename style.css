@@ -208,3 +208,49 @@ h4::before {
 /* ************************ */
 /* NEW CSS */
 /* ************************ */
+.hamburger {
+  display: none;
+  height: fit-content;
+  cursor:pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.hamburger {
+  background-color:#e67e22;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background-color: #212526;
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    width: 90%;
+    padding: 0 20px;
+  }
+
+  nav {
+    position: absolute;
+    left: -300px;
+    top: 33px;
+    z-index: 999;
+    width: 210px;
+    height: 90vh;
+    background-color: #fefefe;
+    transition: 0.2s;
+    box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  #nav_check:checked ~ nav {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

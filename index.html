@@ -11,6 +11,8 @@
   <body>
     <header class="header nav-open">
       <div class="container">
+      <input type="checkbox" id="nav_check" hidden>
+      <nav>
       <a class="wap" href="#">wappalyzer</a>
       <a class="kauga" href="#">products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon1">
         <path fillRule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clipRule="evenodd" />
@@ -28,13 +30,14 @@
       <a class="kauga" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
         <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
       </svg></a>
+    </nav>
     </div>
 
-    <button class="btn-mobile-nav">
-      <icon-icon class="icon-mobile-nav" name="menu-outline"></icon-icon>
-      <icon-icon class="icon-mobile-nav" name="close-outline"></icon-icon>
-    </button>
-    </header>
+    <label for="nav_check" class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
 
     <h1 class="heading-one">Wappalyzer has been change upgraded</h1>
     <p class="version">v6.10.62</p>
