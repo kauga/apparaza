@@ -120,14 +120,14 @@ h4::before {
 /* for new section */
 /* ************************ */
 .element1 {
-  background-color: red;
+  background-color: gray;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   padding: 1rem;
 }
 
 .element2 {
-  background-color: violet;
+  background-color: gray;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   padding: 1rem;
