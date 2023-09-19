@@ -121,15 +121,13 @@ h4::before {
 /* ************************ */
 .element1 {
   background-color: gray;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
+  border-radius: 1rem;
   padding: 1rem;
 }
 
 .element2 {
   background-color: gray;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
+  border-radius: 1rem;
   padding: 1rem;
 }
 
