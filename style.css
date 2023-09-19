@@ -205,4 +205,8 @@ h4::before {
     color: #212526;
     margin-bottom: 40px;
   }
+
+  body {
+    box-sizing: border-box;
+  }
 }
